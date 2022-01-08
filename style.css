@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    color: cadetblue;
+    font-variant: small-caps;
+    background-color: white;
+}
+.line { 
+    height: 6px; 
+    background-color: cadetblue;
+    width: 70px; 
+    margin: 8px auto; 
+}
+.button{
+    color: cadetblue;
+    font-variant: small-caps;
+}
+.button1{
+    color: cadetblue;
+    font-variant: small-caps;
+}
+.button2{
+    color: cadetblue;
+    font-variant: small-caps;
+}
+form{
+    color: cadetblue;
+    font-variant: small-caps;
+}
