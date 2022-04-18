@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Website</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Open+Sans:wght@700&display=swap"
+      rel="stylesheet"
+      <meta
+      charset="UTF-8"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container container">
+        <input type="checkbox" name="" id="" />
+        <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+        <ul class="menu-items">
+          <li><a style="float: left" href="#Intro">Intro</a></li>
+          <li><a style="float: left" href="#About">About</a></li>
+          <li><a style="float: left" href="#Codepen">Codepen</a></li>
+          <li><a style="float: left" href="#Github">Github</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="Intro">
+      <p>Hello 👋 My Name Is</p>
+      <h1 class="name">Jay Pandya.</h1>
+      <h5 class="info">
+        I Code And <br />
+        Make Videos
+      </h5>
+      <div class="line"></div>
+      <p class="more_info">
+        I like coding because it is the best and did you know that, I have a
+        Youtube channel <br />
+        (please subsrcibe) with tons of videos about coding, gaming and even a
+        little bit of music.
+      </p>
+      <br />
+    </section>
+    <section id="About">
+      <h1 class="name">About</h1>
+      <div class="line"></div>
+      <p style="padding-top: 20px">
+        I do many thing as a hobby. Things I like doing especially are cycling,
+        coding, gaming <br />
+        and posting things on my Youtube Channel, Codepen and Github
+      </p>
+      <br />
+    </section>
+    <section id="Codepen">
+      <h1 class="name">Codepen</h1>
+      <div class="line"></div>
+      <p style="padding-top: 20px">Below is my Codepen, a place where I code more simple things.</p>
+      <a style="color: black; padding-left: 20px;" href="https://codepen.io/CODERS-FOR-Life">My Codepen</a>
+    </section>
+    <section id="Github">
+      <h1 class="name">Github</h1>
+      <div class="line"></div>
+      <p style="padding-top: 20px">I have many repositories on Github. Mainly things on there I have just created for fun.</p>
+      <a style="color: black; padding-left: 20px;" href="https://github.com/CoderForLife123">My Github</a>
+      <br>
+      <a style="color: black; padding-left: 20px;" href="https://github.com/CoderForLife123/MY-WEBSITE">My Website's Github</a>
+    </section>
+    <script src="main.js"></script>
+    <style>
+      body {
+  background-color: white;
+}
+p {
+  color: black;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 100px;
+  font-family: "Cabin", sans-serif;
+}
+.name {
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    130deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 97, 0, 1) 25%,
+    rgba(255, 165, 0, 1) 75%,
+    rgba(255, 184, 0, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 80px;
+  font-weight: 600;
+  padding-left: 20px;
+  font-family: "Cabin", sans-serif;
+}
+.line {
+  height: 10px;
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    130deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 97, 0, 1) 25%,
+    rgba(255, 165, 0, 1) 75%,
+    rgba(255, 184, 0, 1) 100%
+  );
+  width: 400px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.info {
+  color: black;
+  font-size: 40px;
+  padding-left: 20px;
+  font-family: "Cabin", sans-serif;
+}
+.more_info {
+  color: black;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-family: "Cabin", sans-serif;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.html {
+  font-size: 62.5%;
+}
+
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines {
+  display: none;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+.navbar {
+  box-shadow: 0px 5px 10px 0px #aaa;
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  color: #000;
+  opacity: 0.85;
+  z-index: 100;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  align-items: center;
+}
+
+.menu-items {
+  order: 2;
+  display: flex;
+}
+
+.menu-items li {
+  list-style: none;
+  padding-left: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    130deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 97, 0, 1) 25%,
+    rgba(255, 165, 0, 1) 75%,
+    rgba(255, 184, 0, 1) 100%
+  );
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    opacity: 0.95;
+  }
+
+  .navbar-container input[type="checkbox"],
+  .navbar-container .hamburger-lines {
+    display: block;
+    background: rgb(255, 0, 0);
+    background: linear-gradient(
+      130deg,
+      rgba(255, 0, 0, 1) 0%,
+      rgba(255, 97, 0, 1) 25%,
+      rgba(255, 165, 0, 1) 75%,
+      rgba(255, 184, 0, 1) 100%
+    );
+  }
+
+  .navbar-container {
+    display: block;
+    position: relative;
+    height: 64px;
+  }
+
+  .navbar-container input[type="checkbox"] {
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 30px;
+    top: 20px;
+    left: 20px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .navbar-container .hamburger-lines {
+    display: block;
+    height: 28px;
+    width: 35px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .navbar-container .hamburger-lines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: #333;
+  }
+
+  .navbar-container .hamburger-lines .line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .navbar-container .hamburger-lines .line2 {
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .navbar-container .hamburger-lines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .navbar .menu-items {
+    padding-top: 100px;
+    background: #fff;
+    height: 100vh;
+    max-width: 300px;
+    transform: translate(-150%);
+    display: flex;
+    flex-direction: column;
+    margin-left: -40px;
+    padding-left: 40px;
+    transition: transform 0.5s ease-in-out;
+    box-shadow: 5px 0px 10px 0px #aaa;
+    overflow: scroll;
+  }
+
+  .navbar .menu-items li {
+    margin-bottom: 1.8rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+
+  .navbar-container input[type="checkbox"]:checked ~ .menu-items {
+    transform: translateX(0);
+  }
+
+  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+    transform: rotate(45deg);
+  }
+
+  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+    transform: scaleY(0);
+  }
+
+  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+    transform: rotate(-45deg);
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar-container input[type="checkbox"]:checked ~ .logo {
+    display: none;
+  }
+}
+
+    </style>
+  </body>
+</html>
