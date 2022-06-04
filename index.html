@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-M99RKGLNJS"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-M99RKGLNJS");
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -109,6 +123,7 @@
     </section>
     <section data-color="black" id="About">
       <h1 class="name">About</h1>
+      <h5 class="info">Me, Obviously</h5>
       <div class="line"></div>
       <p style="padding-top: 20px">
         I do many thing as a hobby. Things I like doing especially are cycling,
@@ -118,6 +133,10 @@
     </section>
     <section id="Codepen">
       <h1 class="name">Codepen</h1>
+      <h5 class="info">
+        Yay front-end, <br />
+        My Favourite
+      </h5>
       <div class="line"></div>
       <p style="padding-top: 20px">
         Below is my Codepen, a place where I code more simple things.
@@ -129,6 +148,10 @@
     </section>
     <section id="Github">
       <h1 class="name">Github</h1>
+      <h5 class="info">
+        Code Everywhere, <br />
+        Literally
+      </h5>
       <div class="line"></div>
       <p style="padding-top: 20px">
         I have many repositories on Github. Mainly things on there I have just
@@ -299,7 +322,7 @@
       </section>
     </section>
     <div class="endline"></div>
-    <script src="main.js"></script>
+
     <style src="style.css"></style>
   </body>
 </html>
