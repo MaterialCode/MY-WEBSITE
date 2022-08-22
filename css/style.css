@@ -873,6 +873,80 @@ h1 {
   background: none;
 }
 
+/* Start Main CSS*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.Main-Color {
+  color: #3fc1fb;
+}
+
+/*End Project*/
+
+/*start price*/
+.our-Prices {
+  background-color: #3fc1fb;
+  transform: skew(0deg, -4deg);
+  transform-origin: left top;
+
+}
+
+.our-Prices .container {
+  transform: skew(0deg, 4deg);
+
+}
+
+.our-prices-box {
+  background-color: white;
+}
+
+.price {
+  background-color: #3fc1fb;
+  color: white;
+  height: 150px;
+  width: 150px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: auto;
+  line-height: 150px;
+  margin-bottom: 20px;
+  text-align: center;
+  vertical-align: center;
+}
+
+.product-info li {
+  margin: 10px auto;
+  list-style-type: none;
+}
+
+.product-info .after-before {
+  position: relative;
+}
+
+.product-info .after-before::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 26%;
+  height: 1px;
+  width: 128px;
+  display: block;
+  margin: auto;
+  background-color: lightgray;
+}
+
+/*End price*/
+
 /*--
     feature start
 --*/
