@@ -35,9 +35,7 @@ strong {
 }
 
 .blog-heading span {
-  background-image: linear-gradient(90deg, #FCCA46, #fa7e1e, #FE7F2D);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #FE7F2D;
 }
 
 .blog-heading h3 {
@@ -663,8 +661,18 @@ a:active {
   }
 }
 
+.img-parallax {
+  width: 100vmax;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,0);
+  pointer-events: none
+}
+
 .hero-area {
-  height: 70vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
