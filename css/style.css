@@ -733,7 +733,7 @@ a:active {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #101010;
+  background-color: #233D4D;
 }
 
 .nav-menu {
@@ -747,7 +747,7 @@ a:active {
 }
 
 .nav-link {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   font-weight: 400;
   color: #FE7F2D;
 }
@@ -757,8 +757,8 @@ a:active {
 }
 
 .nav-logo {
-  font-size: 2.1rem;
-  font-weight: 500;
+  font-size: 2rem;
+  font-weight: 600;
   color: #233D4D;
   text-decoration: none;
 }
