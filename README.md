@@ -11,3 +11,5 @@ Email: jpandya2504@gmail.com
 Codepen: https://codepen.io/CODERS-FOR-Life
 <br>
 Gitub: https://github.com/CoderForLife123/
+<br>
+Wesite Quiz: https://docs.google.com/forms/d/e/1FAIpQLSdJEcA2uDQsW4dX8zsnRJtVbrMovELpiZG7rAXNFbJziWC9Kg/viewform?usp=sf_link
