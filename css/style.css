@@ -722,6 +722,7 @@ a:active {
 
 .hamburger {
   display: none;
+  margin: 20px;
 }
 
 .bar {
