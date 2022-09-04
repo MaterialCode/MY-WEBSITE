@@ -143,7 +143,7 @@ h5,
 h6 {
   font-weight: 300;
   margin: 0px;
-  color: #233D4D;
+  color: #375e79;
 }
 
 h1 {
@@ -171,7 +171,7 @@ p {
   font-size: 18px;
   line-height: 25px;
   margin: 0px;
-  color: #233D4D;
+  color: #375e79;
   font-weight: 400;
 }
 
@@ -249,12 +249,12 @@ a:active {
 
 .heading {
   text-align: center;
-  color: #233D4D;
+  color: #375e79;
   padding-bottom: 20px;
 }
 
 .heading h2 {
-  color: #233D4D;
+  color: #375e79;
   padding-bottom: 15px;
   text-transform: capitalize;
   font-weight: 700;
@@ -269,7 +269,7 @@ a:active {
 }
 
 .subheading {
-  color: #233D4D;
+  color: #375e79;
   padding-bottom: 15px;
   text-transform: capitalize;
   font-weight: 500;
@@ -732,7 +732,7 @@ a:active {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #233D4D;
+  background-color: #375e79;
 }
 
 .nav-menu {
@@ -759,13 +759,13 @@ a:active {
 .nav-logo {
   font-size: 2rem;
   font-weight: 600;
-  color: #233D4D;
+  color: #375e79;
   text-decoration: none;
 }
 
 .nav-logo:hover {
   text-decoration: none;
-  color: #233D4D;
+  color: #375e79;
 }
 
 .nav-logo span {
@@ -831,7 +831,7 @@ h1 {
 }
 
 .logo h1 {
-  color: #233D4D;
+  color: #375e79;
   font-size: 25px;
   margin: 0;
   line-height: 1;
@@ -847,7 +847,7 @@ h1 {
 }
 
 .menu li a {
-  color: #233D4D;
+  color: #375e79;
   font-size: 14px;
   font-weight: bold;
 }
@@ -1065,7 +1065,7 @@ footer {
 }
 
 footer .footer-logo {
-  color: #233D4D;
+  color: #375e79;
 }
 
 footer p.copyright-text {
@@ -1077,7 +1077,7 @@ footer p.copyright-text {
 }
 
 footer p.copyright-text a {
-  color: #233D4D;
+  color: #375e79;
 }
 
 footer p.copyright-text a:hover {
