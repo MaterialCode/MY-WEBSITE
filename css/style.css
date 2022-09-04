@@ -737,7 +737,7 @@ a:active {
 
 .nav-menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .nav-item {
