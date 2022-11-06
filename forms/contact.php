@@ -7,7 +7,7 @@
   */
 
   // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'jpandya2504@gmail.com';
+  $receiving_email_address = 'contact@example.com';
 
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
@@ -38,49 +38,4 @@
   $contact->add_message( $_POST['message'], 'Message', 10);
 
   echo $contact->send();
-?>
-<?php
-
-#Receive user input
-$email_address = $_POST['email_address'];
-$feedback = $_POST['feedback'];
-
-#Filter user input
-function filter_email_header($form_field) {  
-return preg_replace('/[nr|!/<>^$%*&]+/','',$form_field);
-}
-
-$email_address  = filter_email_header($email_address);
-
-#Send email
-$headers = "From: $email_addressn";
-$sent = mail('you@domain.com', 'Feedback Form Submission', $feedback, $headers);
-
-#Thank user or notify them of a problem
-if ($sent) {
-
-?><html>
-<head>
-<title>Thank You</title>
-</head>
-<body>
-<h1>Thank You</h1>
-<p>Thank you for your feedback.</p>
-</body>
-</html>
-<?php
-
-} else {
-
-?><html>
-<head>
-<title>Something went wrong</title>
-</head>
-<body>
-<h1>Something went wrong</h1>
-<p>We could not send your feedback. Please try again.</p>
-</body>
-</html>
-<?php
-}
 ?>
