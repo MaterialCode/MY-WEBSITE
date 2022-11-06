@@ -14,7 +14,7 @@
 
 body {
   font-family: "Jost", sans-serif;
-  color: #444444;
+  color: #8892b0;
 }
 
 a {
@@ -545,7 +545,7 @@ section {
 }
 
 .hero h2 {
-  color: #444444;
+  color: #8892b0;
   margin: 15px 0 0 0;
   font-size: 26px;
 }
@@ -691,33 +691,14 @@ section {
 /*--------------------------------------------------------------
 # Values
 --------------------------------------------------------------*/
-.values .box {
+.our-values {
+  background-color: #f5f6fc;
+}
+.our-values .single-box {
+  border-radius: 10px;
+  background-color: #fff;
   padding: 30px;
-  box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
-  text-align: center;
-  transition: 0.3s;
-  height: 100%;
-}
-
-.values .box img {
-  padding: 30px 50px;
-  transition: 0.5s;
-  transform: scale(1.1);
-}
-
-.values .box h3 {
-  font-size: 24px;
-  color: #012970;
-  font-weight: 700;
-  margin-bottom: 18px;
-}
-
-.values .box:hover {
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-}
-
-.values .box:hover img {
-  transform: scale(1);
+  margin-bottom: 30px;
 }
 
 /*--------------------------------------------------------------
@@ -906,7 +887,7 @@ section {
 }
 
 .services .service-box h3 {
-  color: #444444;
+  color: #8892b0;
   font-weight: 700;
 }
 
@@ -934,106 +915,106 @@ section {
   background: #dbf3fe;
 }
 
-.services .service-box.blue .read-more {
+.service-box.blue .read-more {
   color: #2db6fa;
 }
 
-.services .service-box.blue:hover {
+.service-box.blue:hover {
   background: #2db6fa;
 }
 
-.services .service-box.orange {
+.service-box.orange {
   border-bottom: 3px solid #f68c09;
 }
 
-.services .service-box.orange .icon {
+.service-box.orange .icon {
   color: #f68c09;
   background: #fde3c4;
 }
 
-.services .service-box.orange .read-more {
+.service-box.orange .read-more {
   color: #f68c09;
 }
 
-.services .service-box.orange:hover {
+.service-box.orange:hover {
   background: #f68c09;
 }
 
-.services .service-box.green {
+.service-box.green {
   border-bottom: 3px solid #08da4e;
 }
 
-.services .service-box.green .icon {
+.service-box.green .icon {
   color: #08da4e;
   background: #cffddf;
 }
 
-.services .service-box.green .read-more {
+.service-box.green .read-more {
   color: #08da4e;
 }
 
-.services .service-box.green:hover {
+.service-box.green:hover {
   background: #08da4e;
 }
 
-.services .service-box.red {
+.service-box.red {
   border-bottom: 3px solid #e9222c;
 }
 
-.services .service-box.red .icon {
+.service-box.red .icon {
   color: #e9222c;
   background: #fef7f8;
 }
 
-.services .service-box.red .read-more {
+.service-box.red .read-more {
   color: #e9222c;
 }
 
-.services .service-box.red:hover {
+.service-box.red:hover {
   background: #e9222c;
 }
 
-.services .service-box.purple {
+.service-box.purple {
   border-bottom: 3px solid #b50edf;
 }
 
-.services .service-box.purple .icon {
+.service-box.purple .icon {
   color: #b50edf;
   background: #f8e4fd;
 }
 
-.services .service-box.purple .read-more {
+.service-box.purple .read-more {
   color: #b50edf;
 }
 
-.services .service-box.purple:hover {
+.service-box.purple:hover {
   background: #b50edf;
 }
 
-.services .service-box.pink {
+.service-box.pink {
   border-bottom: 3px solid #f51f9c;
 }
 
-.services .service-box.pink .icon {
+.service-box.pink .icon {
   color: #f51f9c;
   background: #feecf7;
 }
 
-.services .service-box.pink .read-more {
+.service-box.pink .read-more {
   color: #f51f9c;
 }
 
-.services .service-box.pink:hover {
+.service-box.pink:hover {
   background: #f51f9c;
 }
 
-.services .service-box:hover h3,
-.services .service-box:hover p,
-.services .service-box:hover .read-more {
+.service-box:hover h3,
+.service-box:hover p,
+.service-box:hover .read-more {
   color: #fff;
 }
 
-.services .service-box:hover .icon {
+.service-box:hover .icon {
   background: #fff;
 }
 
@@ -1064,7 +1045,7 @@ section {
 
 .pricing .price {
   font-size: 36px;
-  color: #444444;
+  color: #8892b0;
   font-weight: 600;
   font-family: "Jost", sans-serif;
 }
@@ -1088,7 +1069,7 @@ section {
 .pricing ul {
   padding: 0;
   list-style: none;
-  color: #444444;
+  color: #8892b0;
   text-align: center;
   line-height: 26px;
   font-size: 16px;
@@ -1148,7 +1129,7 @@ section {
   font-weight: 600;
   border: 0;
   font-size: 18px;
-  color: #444444;
+  color: #8892b0;
   text-align: left;
 }
 
@@ -1267,7 +1248,7 @@ section {
   font-size: 15px;
   font-weight: 600;
   line-height: 1;
-  color: #444444;
+  color: #8892b0;
   margin: 0 4px 8px 4px;
   transition: 0.3s;
   border-radius: 50px;
@@ -1774,7 +1755,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
-  color: #444444;
+  color: #8892b0;
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px 0 30px 0;
@@ -2033,7 +2014,7 @@ section {
 }
 
 .blog .entry .entry-content blockquote p {
-  color: #444444;
+  color: #8892b0;
   line-height: 1.6;
   margin-bottom: 0;
   font-style: italic;
@@ -2173,7 +2154,7 @@ section {
 
 .blog .blog-comments .comment h5 a {
   font-weight: bold;
-  color: #444444;
+  color: #8892b0;
   transition: 0.3s;
 }
 
